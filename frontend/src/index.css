@@ -1,0 +1,135 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* .new-class {
+  background-color: aqua;
+  height: 100vh;
+  width: 100%;
+}
+
+.parent-class {
+  background-color: antiquewhite;
+  height: 100%;
+  width: 100%;
+} */
+
+
+.signup-parent {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.signup-brand {
+  width: 35%;
+  background-color: #B0D8DA
+  ;
+}
+.signup-form {
+  width: 65%;
+  background-color: aliceblue;
+}
+.signup-brand-heading {
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 10%;
+  margin-left: 2%;
+  display: inline;
+}
+.signup-tagline {
+  color: white;
+  margin-left: 2%;
+  position: absolute;
+  top: 18%;
+  letter-spacing: 2px;
+}
+.signup-brand-battle {
+  position: absolute;
+  top: 36%;
+  margin-left: 12%;
+}
+.signup-brand-paper {
+  position: absolute;
+  top: 20%;
+  margin-left: 10%;
+}
+.signup-form-heading {
+  position: absolute;
+  top: 14%;
+  color: #808080;
+  font-weight: 700;
+  margin-left: 10%;
+}
+.signup-form-container {
+  position: absolute;
+  top: 30%;
+  margin-left: 12%;
+}
+.signup-redirector {
+  margin-top: 3%
+}
+.signin-brand-image {
+  position: absolute;
+  top: 36%;
+  margin-left: 2%;
+}
+.home-brand-image {
+  position: absolute;
+  top: 18%;
+  margin-left: -22%;
+  height: 800px;
+  width: 1000px;
+}
+.home-logo {
+  margin-left: 30%;
+  height: 220px;
+  width: 250px;
+  margin-top: 2%;
+}
+.title-avatar {
+  display: flex;
+}
+.title-avatar-child {
+  width: 50%;
+}
+.titles-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  /* margin-left: 25%;
+  margin-top: 2%; */
+}
+.candidate-background {
+  background-color:#B0D8DA;
+  height: 100vh;
+  width: 100%;
+  padding: 50px 50px 50px 50px;
+}
+.candidate-background-child {
+  background-color: white;
+  height: 100%;
+  border-radius: 2%;
+}
+.candidate-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+.emailVerification-component {
+  height: 100vh;
+  width: 100%;
+  padding-top: 8%;
+  background-color: #B0D8DA;
+}
